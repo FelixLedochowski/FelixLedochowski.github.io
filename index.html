@@ -1,6 +1,22 @@
 <!doctype html>
 <html>
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+   <style>
+      .video-container {
+      position: relative;
+      width: 100%; /* Set width of container */
+      padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100) */
+      overflow: hidden;
+      }
+      .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%; /* Set width of iframe */
+      height: 100%; /* Set height of iframe */
+      border: 0;
+      }
+   </style>
+   <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
    <head>
       <!-- Page setup -->
       <meta charset="utf-8">
@@ -34,74 +50,108 @@
          </ul>
       </header>
       <div id="container">
-         <div class="inner">
-            <div id="content">
-               <div id="home" class="content-region hide">
-                  <p>
-                     Software engineer with 4 years of professional experience in Virtual Reality and mobile development in Unreal Engine. Developed and released multiple mobile and desktop applications created in Unreal Engine 4 and 5. Experienced in creating scalable applications from smart phones all the way to high end 4K multi touch table solutions. Created and tested multiple locomotion techniques for both virtual reality and mobile during studies at Vienna University of Technology. Completed Masters with distinction.
-                  </p>
+      <div class="inner">
+      <div id="content">
+         <div id="home" class="content-region hide">
+            <p>
+               Software engineer with 4 years of professional experience in Virtual Reality and mobile development in Unreal Engine. Developed and released multiple mobile and desktop applications created in Unreal Engine 4 and 5. Experienced in creating scalable applications from smart phones all the way to high end 4K multi touch table solutions. Created and tested multiple locomotion techniques for both virtual reality and mobile during studies at Vienna University of Technology. Completed Masters with distinction.
+            </p>
+         </div>
+         <div id="projects" class="content-region hide">
+            <p>
+               WIP - Metroidvania with roguelike elements for mobile, VR (Quest 2) and PC.
+            </p>
+            <img src="guns.gif" width=100% />
+            <img src="guns2.gif" width=100% />
+            <br>
+            <br>
+            <br>
+            <p>
+               Exploration of motion sickness free VR locomotion techniques.
+            </p>
+            <div class="video-container">
+               <div class="video-container">
+					<iframe src="https://www.youtube-nocookie.com/embed/Bf5fHSK4aLI?si=Bw0mWrq6pvtVqeiu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                </div>
-               <div id="projects" class="content-region hide">
-			   <p>
-				Exploration of motion sickness free VR locomotion techniques.
-				</p>
-				<iframe width="315" height="177" src="https://www.youtube-nocookie.com/embed/Bf5fHSK4aLI?si=Bw0mWrq6pvtVqeiu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-					<br>
-                  <br>
-				  <br>
-                  <p>
-                     Scalable real estate application for iOS, Android and Windows featuring augmented reality and real time data update. Made using Unreal Engine 4.
-                  </p>
-                  <iframe width="315" height="177" src="https://www.youtube-nocookie.com/embed/M5rsOiI4oQg?si=hMPaoYxYR_gUQnjx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+               <br>
+               <br>
+               <br>
+               <p>
+                  Scalable real estate application for iOS, Android and Windows featuring augmented reality and real time data update. Made using Unreal Engine 4.
+               </p>
+               <div class="video-container">
+                  <div class="video-container">
+						<iframe  src="https://www.youtube-nocookie.com/embed/M5rsOiI4oQg?si=hMPaoYxYR_gUQnjx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
                   <br>
                   <br>
-				  <br>
+                  <br>
+                  <br>
                   <p>
                      Multiplayer VR real estate exploration application for Windows.
                   </p>
-                  <iframe width="315" height="177" src="https://www.youtube-nocookie.com/embed/KYE2y3trdfo?si=0sRk6jp88Ovupl0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  <div class="video-container">
+						<iframe  src="https://www.youtube-nocookie.com/embed/KYE2y3trdfo?si=0sRk6jp88Ovupl0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
                   <br>
                   <br>
                   <br>
                   <p>
                      High end multitouch application for Windows featuring switch to VR.
                   </p>
-                  <iframe width="315" height="177" src="https://www.youtube-nocookie.com/embed/eeldbMoPaW0?si=SPojx9hWo8TrMgXL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  <div class="video-container">
+						<iframe  src="https://www.youtube-nocookie.com/embed/eeldbMoPaW0?si=SPojx9hWo8TrMgXL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
                   <br>
                   <br>
                   <br>
                   <p>
                      Scalable application for tablets and phones, featuring DLC system, social network connection and ability to get in touch with real estate sales.
                   </p>
-                  <iframe width="315" height="177" src="https://www.youtube-nocookie.com/embed/QxDTHjypRE8?si=YJQOOhxysaHIMo-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  <div class="video-container">
+						<iframe  src="https://www.youtube-nocookie.com/embed/QxDTHjypRE8?si=YJQOOhxysaHIMo-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
                   <br>
                   <br>
                   <br>
                   <p>
                      High performance, easy setup traffic system.
                   </p>
-                  <iframe width="315" height="177" src="https://www.youtube-nocookie.com/embed/D-dZyB34Ldg?si=Idf6xwguGDv0kgRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  <div class="video-container">
+						<iframe  src="https://www.youtube-nocookie.com/embed/D-dZyB34Ldg?si=Idf6xwguGDv0kgRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
                   <br>
                   <br>
                   <br>
                   <p>
-                     Free runner game for mobile featuring procedural generation and intuitive touch controls.
+                     Free runner game for mobile featuring procedural generation and intuitive touch controls. Created in Unity.
                   </p>
-                  <iframe width="315" height="177" src="https://www.youtube-nocookie.com/embed/LR1UdWgbdQs?si=1vk0qnzccniJCOI3&amp;start=17" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  <div class="video-container">
+						<iframe  src="https://www.youtube-nocookie.com/embed/LR1UdWgbdQs?si=1vk0qnzccniJCOI3&amp;start=17" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
+				  <br>
+                  <br>
+                  <br>
+                  <p>
+                     Cube based online multiplayer shooter. Created in Unity.
+                  </p>
+				  <div class="video-container">
+						<iframe  src="https://www.youtube-nocookie.com/embed/tScpZRbV9tg?si=dJD3X-oPHBgiVAL-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                  
+                  </div>
                   <br>
                   <br>
                   <br>
                   <p>
-				     Asymmetric VR coop-shooter combining hand tracking and 6 degrees of freedom virtual reality.
+                     Asymmetric VR coop-shooter combining hand tracking and 6 degrees of freedom virtual reality. Created in Unity.
                   </p>
-				<iframe width="315" height="177" src="https://www.youtube-nocookie.com/embed/vF3e_F65-aY?si=64bvsh6VCUmZARBW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                  
-				<br>
-				</div>
-				<div id="about" class="content-region hide">
-				  
-				  <h2><a href="CV Ledochowski.pdf">Download CV</a></h2>
-				  
-				    <br>
+                  <div class="video-container">
+						<iframe  src="https://www.youtube-nocookie.com/embed/vF3e_F65-aY?si=64bvsh6VCUmZARBW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                  
+                  </div>
+               </div>
+               <div id="about" class="content-region hide">
+                  <h2>
+					<a href="CV Ledochowski.pdf">Download CV</a></h2>
+                  <br>
                   <table style="margin-bottom:0pt; border-collapse:collapse">
                      <tr style="height:26pt">
                         <td style="width:100.95pt; padding-right:5.4pt; padding-left:5.4pt; vertical-align:top; background-color:">
@@ -141,7 +191,8 @@
                      </tr>
                   </table>
                   <p style="margin-right:226.8pt; line-height:115%; font-size:12pt">
-                     <br /><h2>Education</h2>
+                     <br />
+                  <h2>Education</h2>
                   </p>
                   <table style="margin-bottom:0pt; border:2.25pt  ; border-collapse:collapse">
                      <tr>
@@ -203,7 +254,7 @@
                      </tr>
                   </table>
                   <p style="margin-right:226.8pt; line-height:115%; font-size:12pt">
-                     <h2>Work experience</h2>
+                  <h2>Work experience</h2>
                   </p>
                   <table style="margin-bottom:0pt; border:6pt  ; border-collapse:collapse">
                      <tr>
@@ -326,10 +377,8 @@
                   <p>
                      +436801332608
                   </p>
-				  				<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="felix-ledóchowski-4a205479" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://at.linkedin.com/in/felix-led%C3%B3chowski-4a205479?trk=profile-badge">Linkedin Profile</a></div>
-
+                  <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="felix-ledóchowski-4a205479" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://at.linkedin.com/in/felix-led%C3%B3chowski-4a205479?trk=profile-badge">Linkedin Profile</a></div>
                </div>
-                            
             </div>
          </div>
       </div>
